@@ -63,3 +63,7 @@
             color: #0E0426;
             font-weight: bold;
         }
+        a:hover {
+
+            color: greenyellow;
+        }
