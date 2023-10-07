@@ -10,5 +10,69 @@
 <body>
     <li><a href="kazihome.html">Home</a></li>
   <p>show latest jobs and still available jobs</p>  
+  <title>Job Listings</title>
+  <style>
+      /* Apply some basic styling */
+      body {
+          font-family: Arial, sans-serif;
+      }
+      table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+      th, td {
+          padding: 10px;
+          text-align: left;
+      }
+      th {
+          background-color: #f2f2f2;
+      }
+      tr:nth-child(even) {
+          background-color: #f2f2f2;
+      }
+      tr:hover {
+          background-color: #ddd;
+      }
+      /* Add rounded corners to the table */
+      table {
+          border-radius: 10px;
+          overflow: hidden;
+      }
+      th, td {
+          border-radius: 10px;
+      }
+  </style>
+</head>
+<body>
+  <h1>Job Listings</h1>
+  
+  <!-- Your input form can go here to add data to the table -->
+
+  <table>
+      <thead>
+          <tr>
+              <th>Location</th>
+              <th>Job Type</th>
+              <th>Date</th>
+              <th>Requirements</th>
+              <th>Pay</th>
+              <th>Contact Employer</th>
+          </tr>
+      </thead>
+      <tbody>
+         -- Rows of job listings will be dynamically added here >
+         !-- Example row:
+          <tr>
+              <td>New York</td>
+              <td>Full-time</td>
+              <td>2023-10-05</td>
+              <td>Degree in Computer Science</td>
+              <td>$70,000/year</td>
+              <td><a href="mailto:employer@example.com">Email</a></td>
+          </tr>
+         >
+      </tbody>
+  </table>
+
 </body>
 </html>
