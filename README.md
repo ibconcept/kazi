@@ -1,6 +1,6 @@
 # kazi
-User Registration and Authentication:
-
+Kazi is porject at heart for a genuine work eco-system for the informal sector that is plagued with
+alot of mal practices and lack of work ethic .
 As a user,
 I want to create an account and log in with my email or social media accounts.
 As a user, I want to reset my password if I forget it.
