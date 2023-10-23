@@ -6,12 +6,18 @@
             text-align: center;
             color: #0E0426;
         }
-    .image   {
+        .image   {
 
-               max-width: 80vw;
-               box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            max-width: 80vw;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
-   }
+}
+.logo   {
+
+    max-width: 33%;
+ 
+
+}
    
         .container {
             padding: 20px;
