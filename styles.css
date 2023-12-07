@@ -1,28 +1,33 @@
      body {
          background-color: #FF3300;
          font-family: 'Poppins', sans-serif;
-         margin: 10;
+         margin: 0;
          padding: 0;
          text-align: center;
-         color: #0E0426;
+         color: #0E0426; 
+         display: inline-block;
      }
 
      .image {
 
-         max-width: 80vw;
-         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+display: inline-block;
+         width:30vw;
+         margin-top: -30%;
+         margin-left: 10%;
 
      }
 
      .logo {
-
-         max-width: 33%;
-
-
+       display: block;
+        width: 30%;
+        margin-left: 20%;
+        margin-top: 10%; 
+align-items: center;
      }
 
      .container {
          padding: 20px;
+         display: inline-block; 
      }
 
      h1 {
@@ -32,6 +37,7 @@
 
      p {
          font-size: 24px;
+         font-weight: 700;
      }
 
      .download-button {
@@ -47,6 +53,7 @@
          border-bottom: #ffffff;
          border: #0E0426;
          color: white;
+         font-weight: 500;
          padding: 10px;
          margin: 10px;
          text-align: center;
