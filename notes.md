@@ -5,8 +5,10 @@ check which for web app.....or native plus web
 saf com,,,
 employers dont need app
 workeres needs app to see real time jobs
+real time feedback //
 set culture
 set the price
 rules for listing
 simple and suctint
-start with the mass//employers i.e the jobs
+start with the mass//employers entreprice customer i.e the jobs
+automate..
