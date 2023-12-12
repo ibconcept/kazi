@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 
     <style> 
-
+/* 
      div {
              
              
@@ -59,39 +59,6 @@ padding: 50px;
         <li><a href="#">Article 2</a></li>
         <li><a href="#">Article 3</a></li>
         <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#" >Article 13</a></li> 
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#" >Article 13</a></li>
-         <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#" >Article 13</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#" >Article 13</a></li> 
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
-        <li><a href="#">Article 3</a></li>
         <li><a href="#" >Article 13</a></li>
         <!-- Add more articles as needed -->
     </ul>
@@ -105,65 +72,76 @@ padding: 50px;
 <!-- Main Content Section -->
 <section>
     <!-- Blog Article Content Goes Here -->
-    <article id="1">
-        <h1> "Revolutionizing Work Culture: Embracing Shifts, Remote Work, and Innovative Scheduling"</h1>
-        <p>Title:
 
-            In an era where the traditional 9-to-5 work model is being challenged, the global workforce 
-            is undergoing a significant transformation. The shift from rigid schedules to flexible
-             alternatives not only reflects the changing dynamics of the job market but also 
-             addresses the need for enhanced productivity, employee well-being, and efficient 
-             time management. This article explores the evolution of work culture, focusing on 
-             the adoption of weekly shifts, remote work, sleeping cubicles, and smarter working hours.
-            
-           <h2 > The Weekly Shift Model</h2>
-            Kenya and Beyond
-            Across Kenya and the globe, companies are recognizing the benefits of moving away 
-            from the conventional 9-to-5 workday. Embracing weekly shift models allows businesses to accommodate diverse schedules, catering to employees' personal needs and preferences. This flexibility promotes a healthier work-life balance, leading to increased job satisfaction and higher retention rates.
-            
-            <h2> Embracing Remote and Hybrid Work</h2>
-            Breaking the Office Chains
-            Remote work has become more than just a trend; it's a paradigm shift. Companies are acknowledging 
-            the advantages of remote and hybrid work models. Beyond the geographical constraints, remote work
-             fosters a more inclusive environment, tapping into a global talent pool. Additionally, it enhances 
-             employee autonomy, resulting in improved productivity and creativity.
-            
-             <h2> Work Cubicles for Sleeping and Working</h2>
-            Rethinking the Workplace
-            Innovative companies are introducing sleeping cubicles within office spaces. Recognizing the 
-            importance of rest, these nap pods or sleeping cubicles offer employees a rejuvenating break.
-             This unconventional approach not only supports mental health but also boosts overall 
-             productivity and focus during working hours.
-            
-             <h2>Smart Working Hours</h2>
-            Avoiding Traffic and Maximizing Productivity
-            To combat the daily commute and optimize working hours, companies are experimenting with 
-            flexible start and end times. By staggered scheduling or offering alternative hours, 
-            businesses aim to reduce traffic congestion, enhance employee well-being, and increase 
-            productivity. This approach allows employees to choose hours that align with their 
-            natural energy levels, resulting in more efficient output.
-            
-            <h2>Collaborative Software and Web Apps</h2>
-            Kazi, Notion, Buffer, and Beyond
-            The rise of collaborative software and web applications is instrumental in this 
-            transformative journey. Tools like Kazi, Notion, and Buffer facilitate seamless 
-            communication, project management, and scheduling. These platforms enable teams 
-            to collaborate in real-time, irrespective of physical location, fostering a 
-            culture of transparency and efficiency.
-            
-            <h2>The Future of Work</h2>
-            As we witness the evolution of work culture, it's evident that the traditional 
-            9-to-5 model is giving way to a more adaptive, inclusive, and innovative approach. 
-            Embracing weekly shifts, remote work, sleeping cubicles, smart working hours, 
-            and collaborative software is not just a trend but a necessity in the fast-paced, 
-            ever-changing landscape of the global workforce.
-            
-        <h2>The future of work lies in flexibility, creativity,</h2> and a commitment to employee 
-            well-being. By embracing these changes, companies can not only attract top talent 
-            but also cultivate a work environment that thrives on adaptability 
-            and continuous improvement.</p>
-    </article>
+    <div class="article" onclick="expandArticle(this)">
+        <h2>Article Title 1</h2>
+        <p>Preview of Article 1... <span class="expand-link">[Read more]</span>
+            <article id="1" class="article" onclick="expandArticle(this)">
+                <h1> "Revolutionizing Work Culture: Embracing Shifts, Remote Work, and Innovative Scheduling"</h1>
+                
+            </article>
+        </p>
+        <div class="full-content" style="display: none;">
+            <p>Title:
 
+                In an era where the traditional 9-to-5 work model is being challenged, the global workforce 
+                is undergoing a significant transformation. The shift from rigid schedules to flexible
+                 alternatives not only reflects the changing dynamics of the job market but also 
+                 addresses the need for enhanced productivity, employee well-being, and efficient 
+                 time management. This article explores the evolution of work culture, focusing on 
+                 the adoption of weekly shifts, remote work, sleeping cubicles, and smarter working hours.
+                
+               <h2 > The Weekly Shift Model</h2>
+                Kenya and Beyond
+                Across Kenya and the globe, companies are recognizing the benefits of moving away 
+                from the conventional 9-to-5 workday. Embracing weekly shift models allows businesses to accommodate diverse schedules, catering to employees' personal needs and preferences. This flexibility promotes a healthier work-life balance, leading to increased job satisfaction and higher retention rates.
+                
+                <h2> Embracing Remote and Hybrid Work</h2>
+                Breaking the Office Chains
+                Remote work has become more than just a trend; it's a paradigm shift. Companies are acknowledging 
+                the advantages of remote and hybrid work models. Beyond the geographical constraints, remote work
+                 fosters a more inclusive environment, tapping into a global talent pool. Additionally, it enhances 
+                 employee autonomy, resulting in improved productivity and creativity.
+                
+                 <h2> Work Cubicles for Sleeping and Working</h2>
+                Rethinking the Workplace
+                Innovative companies are introducing sleeping cubicles within office spaces. Recognizing the 
+                importance of rest, these nap pods or sleeping cubicles offer employees a rejuvenating break.
+                 This unconventional approach not only supports mental health but also boosts overall 
+                 productivity and focus during working hours.
+                
+                 <h2>Smart Working Hours</h2>
+                Avoiding Traffic and Maximizing Productivity
+                To combat the daily commute and optimize working hours, companies are experimenting with 
+                flexible start and end times. By staggered scheduling or offering alternative hours, 
+                businesses aim to reduce traffic congestion, enhance employee well-being, and increase 
+                productivity. This approach allows employees to choose hours that align with their 
+                natural energy levels, resulting in more efficient output.
+                
+                <h2>Collaborative Software and Web Apps</h2>
+                Kazi, Notion, Buffer, and Beyond
+                The rise of collaborative software and web applications is instrumental in this 
+                transformative journey. Tools like Kazi, Notion, and Buffer facilitate seamless 
+                communication, project management, and scheduling. These platforms enable teams 
+                to collaborate in real-time, irrespective of physical location, fostering a 
+                culture of transparency and efficiency.
+                
+                <h2>The Future of Work</h2>
+                As we witness the evolution of work culture, it's evident that the traditional 
+                9-to-5 model is giving way to a more adaptive, inclusive, and innovative approach. 
+                Embracing weekly shifts, remote work, sleeping cubicles, smart working hours, 
+                and collaborative software is not just a trend but a necessity in the fast-paced, 
+                ever-changing landscape of the global workforce.
+                
+            <h2>The future of work lies in flexibility, creativity,</h2> and a commitment to employee 
+                well-being. By embracing these changes, companies can not only attract top talent 
+                but also cultivate a work environment that thrives on adaptability 
+                and continuous improvement.</p>
+        </div>
+      </div>
+
+
+    
     <article>
         <h2>Article Title 2</h2>
         <p>Content of the second blog article...</p>
@@ -208,5 +186,59 @@ padding: 50px;
     <!-- Add more articles as needed -->
 </section>
 
+</body>
+</html>
+ 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    .article {
+      border-bottom: 1px solid #ccc;
+      padding: 20px;
+      transition: height 0.3s ease;
+      cursor: pointer;
+    }
+    .article:hover {
+      background-color: #f9f9f9;
+    }
+    .article h2 {
+      margin-top: 0;
+    }
+    .full-content {
+      height: auto;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+   */
+  <div class="article" onclick="expandArticle(this)">
+    <h2>Article Title 2</h2>
+    <p>Preview of Article 2... <span class="expand-link">[Read more]</span></p>
+    <div class="full-content" style="display: none;">
+      <p>Full content of Article 2...</p>
+    </div>
+  </div>
+
+  <!-- Add more articles with similar structure -->
+
+  <script>
+    function expandArticle(article) {
+      const content = article.querySelector('.full-content');
+      const expandLink = article.querySelector('.expand-link');
+      
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        expandLink.textContent = '[Show less]';
+      } else {
+        content.style.display = 'none';
+        expandLink.textContent = '[Read more]';
+      }
+    }
+  </script>
 </body>
 </html>
