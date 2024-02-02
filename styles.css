@@ -6,6 +6,7 @@ body {
     text-align: center;
     color: #0E0426;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .image {
@@ -15,35 +16,29 @@ body {
     margin-left: 10%;
     margin-bottom: -10%;
 }
-
-.image1 {
-    display: inline-block;
-    width: 80vw;
-    margin-top: 3%;
-}
+ 
 
 .logo {
     display: block;
-    width: 13vw;
+    width: 33vw;
     margin-left: 20%;
     margin-top: 10%;
     max-width: 100%;
 }
 
-.container {
-    padding: 20px;
+.container { 
+
     display: inline-block;
     align-items: center;
 }
 
 h1 {
-    font-size: 46px;
+    font-size: 80vw;
     color: #ffffff;
 }
 
 p {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 24px; 
 }
 
 .download-button {
@@ -54,16 +49,7 @@ p {
     text-decoration: none;
     border-radius: 10px;
 }
-
-h2 {
-    border-bottom: #ffffff;
-    border: #0E0426;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
+ 
 
 ul {
     list-style-type: none;
